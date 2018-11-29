@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should match the snapshot 1`] = `
+<div>
+  <div
+    class="sc-gzVnrw dwXDQI"
+  >
+    <img
+      class="sc-bdVaJa fBmRQa"
+      src="/some/path.png"
+    />
+    <div
+      class="sc-bwzfXH iinQpO"
+    >
+      <div
+        class="sc-htpNat gYJYHY"
+      >
+        <h4
+          class="sc-ifAKCX bWdHSd"
+        />
+        <h2
+          class="sc-bxivhb cpAlUE"
+        >
+          Title
+        </h2>
+      </div>
+      <i
+        class="sc-bZQynM eFgNFJ"
+      >
+        <ion-icon
+          name="airplane"
+        />
+      </i>
+      <p
+        class="sc-EHOje jvzENE"
+      >
+        Description
+      </p>
+    </div>
+  </div>
+</div>
+`;

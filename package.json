@@ -1,0 +1,40 @@
+{
+  "name": "tdd-rtl",
+  "version": "1.0.0",
+  "description": "A introductory presentation on TDD in react with react-testing-library",
+  "main": "index.js",
+  "repository": "git@github.com:ericadamski/intro-tdd-rtl.git",
+  "author": "Eric Adamski <er.adamski@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "present": "mdx-deck presentation.mdx",
+    "start": "react-scripts start",
+    "test": "jest",
+    "publish": "now --public"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "husky": "^1.2.0",
+    "jest": "^23.6.0",
+    "mdx-deck": "^1.8.1",
+    "prettier": "^1.15.2",
+    "pretty-quick": "^1.8.0",
+    "react-testing-library": "^5.3.1",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "^2.1.1",
+    "styled-components": "^4.1.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

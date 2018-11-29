@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "presentation.mdx",
+      "use": "@now/mdx-deck",
+      "config": {
+        "alias": "tdd-rtl-slides"
+      }
+    },
+    {
+      "src": "**",
+      "use": "@now/static",
+      "config": {
+        "alias": ["tdd-rtl"],
+        "static": {
+          "rewrites": [
+            {
+              "source": "**",
+              "destination": "/index.html"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
