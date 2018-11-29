@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "env": {
+    "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true"
+  },
   "builds": [
     {
       "src": "presentation.mdx",
@@ -9,18 +12,15 @@
       }
     },
     {
-      "src": "**",
-      "use": "@now/static",
+      "src": "package.json",
+      "use": "@now/static-build",
       "config": {
-        "alias": ["tdd-rtl"],
-        "static": {
-          "rewrites": [
-            {
-              "source": "**",
-              "destination": "/index.html"
-            }
-          ]
-        }
+        "useBuildUtils": "@now/build-utils@canary",
+        "alias": "tdd-rtl",
+        "routes": [
+          { "src": "^/static/(.*)", "dest": "/static/$1" },
+          { "src": ".*", "dest": "/index.html" }
+        ]
       }
     }
   ]

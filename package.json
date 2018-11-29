@@ -10,7 +10,8 @@
     "present": "mdx-deck presentation.mdx",
     "start": "react-scripts start",
     "test": "jest",
-    "publish": "now --public"
+    "now-build": "react-scripts build && mv build dist",
+    "deploy": "now --public"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
