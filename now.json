@@ -1,26 +1,11 @@
 {
   "version": 2,
-  "env": {
-    "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true"
-  },
   "builds": [
     {
       "src": "presentation.mdx",
       "use": "@now/mdx-deck",
       "config": {
         "alias": "tdd-rtl-slides"
-      }
-    },
-    {
-      "src": "package.json",
-      "use": "@now/static-build",
-      "config": {
-        "useBuildUtils": "@now/build-utils@canary",
-        "alias": "tdd-rtl",
-        "routes": [
-          { "src": "^/static/(.*)", "dest": "/static/$1" },
-          { "src": ".*", "dest": "/index.html" }
-        ]
       }
     }
   ]

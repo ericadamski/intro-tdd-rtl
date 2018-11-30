@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card List should react to user search 1`] = `
+<div>
+  <div
+    class="sc-gZMcBi iRPvWe"
+  >
+    <input
+      class="sc-iwsKbI csOgaS"
+      placeholder="test"
+    />
+  </div>
+  <ul
+    class="sc-htoDjs bGuRhT"
+  >
+    <div
+      class="sc-gzVnrw dwXDQI"
+    >
+      <img
+        class="sc-bdVaJa fBmRQa"
+        src="https://source.unsplash.com/500x500/?poland,city"
+      />
+      <div
+        class="sc-bwzfXH iinQpO"
+      >
+        <div
+          class="sc-htpNat gYJYHY"
+        >
+          <h4
+            class="sc-ifAKCX bWdHSd"
+          >
+            Poland
+          </h4>
+          <h2
+            class="sc-bxivhb cpAlUE"
+          >
+            Warsaw
+          </h2>
+        </div>
+        <i
+          class="sc-bZQynM eFgNFJ"
+        >
+          <ion-icon
+            name="airplane"
+          />
+        </i>
+        <p
+          class="sc-EHOje jvzENE"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula diam varius felis luctus, in gravida elit cursus. Aliquam quis.
+        </p>
+      </div>
+    </div>
+  </ul>
+</div>
+`;

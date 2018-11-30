@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { render } from "react-dom";
-import CardList from "./card-list";
 import { createGlobalStyle } from "styled-components";
+import CardList from "./card-list";
 
 const Global = createGlobalStyle`
   body {

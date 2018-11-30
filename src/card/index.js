@@ -1,14 +1,5 @@
 import React, { PureComponent } from "react";
-import {
-  Wrapper,
-  Img,
-  Details,
-  Title,
-  TitleGroup,
-  Location,
-  Description,
-  Icon
-} from "./card.styled";
+import { Description, Details, Icon, Img, Location, Title, TitleGroup, Wrapper } from "./card.styled";
 
 export default class Card extends PureComponent {
   render() {
